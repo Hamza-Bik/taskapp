@@ -10,6 +10,10 @@
     "test": "ng test",
     "server":"json-server --watch db.json --port 5000"
   },
+  "engines": {
+    "node": "12.4.0",
+    "npm": "6.9.0"
+  },
   "private": true,
   "dependencies": {
     "@angular/cli": "~12.2.7",
